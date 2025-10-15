@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Check live weather updates for any city using OpenWeatherMap API. Built with HTML, CSS, and JavaScript.">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav>
+        <div class="logo">
+            <h4>Weather App</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!--Main Section-->
+    <main>
+        <div class="container">
+            <h1>Check the Weather</h1>
+            <form id="weatherForm">
+                <input type="text" id="cityInput" placeholder="Enter city name" required>
+                <button type="submit">Get Weather</button>
+            </form>
+            <div id="loading" class="spinner hidden"></div>
+            <div id="weatherResult"></div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2025 Weather App. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
