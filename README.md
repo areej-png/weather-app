@@ -1,6 +1,8 @@
 # weather-app
 A simple and responsive Weather App built using HTML, CSS, and JavaScript. Fetches real-time weather data from the OpenWeatherMap API, allowing users to search by city and view current temperature, humidity, and conditions. Includes error handling and dynamic UI updates.
 
+**Last updated:** October 2025
+
 --- 
 ## 🌍 Preview
 
@@ -10,18 +12,17 @@ Here’s how the Weather App looks in the browser:
 ![Weather App screenshot](https://github.com/user-attachments/assets/9a48d49f-235c-4547-b42b-1640efebeeab)
 
 ---
-
 ## ✨ Features
 
 - 🔍 Search weather by **city name**
 - ☀️ **Real-time data** from OpenWeatherMap API
 - 🌡️ Displays **temperature, weather condition, humidity, and wind speed**
 - ⏳ **Loading spinner** while fetching data
-- ❌ **Error message** for invalid city names
+- ❌ **Friendly error handling** for invalid city names, network issues, and request timeout
+- 🧩 **Async/Await** implementation with modular fetch function (`fetchWithTimeout`)
 - 📱 **Responsive navigation** with burger menu
 
 ---
-
 ## 🛠️ Tech Stack
 
 - **HTML5** – Structure  
@@ -30,7 +31,6 @@ Here’s how the Weather App looks in the browser:
 - **OpenWeatherMap API** – Weather Data Provider  
 
 ---
-
 ## 🗂️ Project Structure
 ```bash
 weather-app/
@@ -44,7 +44,6 @@ weather-app/
 ```
 
 ---
-
 ## 🚀 How to Run
 
 1. **Clone the repository**
@@ -60,12 +59,12 @@ weather-app/
  ### 🔮Future Enhancements
  - Add dynamic background images based on weather conditions
  - Add temperature unit toggle (°C ↔ °F)
-
  - Improve accessibility (ARIA, alt texts)
-
  - Add 5-day forecast feature
 
  ---
  ## License
 
- This project is licensed under the MIT License — feel free to use and modify it.
+ ## 📝 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
